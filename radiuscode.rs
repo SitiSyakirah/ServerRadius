@@ -1,5 +1,6 @@
 /// RADIUS message types
 #[derive(Clone, PartialEq)]
+fn main(){
 pub enum RadiusCode {
     /// 1 = Access-Request
     AccessRequest,
@@ -52,4 +53,5 @@ impl RadiusCode {
             RadiusCode::Reserved => 255u8,
         }
     }
+}
 }
