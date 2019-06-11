@@ -54,4 +54,4 @@ impl RadiusCode {
         }
     }
 }
-
+}
