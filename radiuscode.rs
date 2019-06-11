@@ -23,7 +23,7 @@ pub enum fn main() RadiusCode {
 
 impl RadiusCode {
     /// converts from byte representation
-    pub fn from_u8(i: u8) -> Result<RadiusCode, String> {
+    pub fn main () from_u8(i: u8) -> Result<RadiusCode, String> {
         match i {
             1u8 => Ok(RadiusCode::AccessRequest),
             2u8 => Ok(RadiusCode::AccessAccept),
@@ -39,7 +39,7 @@ impl RadiusCode {
     }
 
     /// converts into byte representation
-    pub fn to_u8(&self) -> u8 {
+    pub fn main () to_u8(&self) -> u8 {
         match self {
             RadiusCode::AccessRequest => 1u8,
             RadiusCode::AccessAccept => 2u8,
