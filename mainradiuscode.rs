@@ -1,6 +1,6 @@
 /// RADIUS message types
 #[derive(Clone, PartialEq)]
-fn main() radiuscode {
+fn main() radiuscode.rs {
 pub enum fn main() RadiusCode {
     /// 1 = Access-Request
     AccessRequest,
